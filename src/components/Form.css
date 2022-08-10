@@ -5,6 +5,9 @@
   border: none;
   border-radius: 0.5rem;
 }
+#dark .avtocomplate{
+  background-color: #1e1e1e;
+}
 .avtocomplate {
   position: absolute;
   background-color: rgb(255, 255, 255);
