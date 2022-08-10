@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+#light {
+  background-color: #f3ebf6;
+}
+#dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}

@@ -1,4 +1,5 @@
 .counter_list {
+  margin: 1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -11,9 +12,15 @@
   box-shadow: 0px 0px 8px #888;
   flex-grow: 1;
   cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.2s ease;
+}
+.counter_item:hover {
+  transform: scale(1);
 }
 .counter_name {
   flex-grow: 1;
+  font-size: 1.2rem;
 }
 .counter_img {
   width: 100%;
